@@ -1,0 +1,5 @@
+.vscode
+.vscode/*.json
+
+.lib
+.lib/mysql-connector-j-8.3.0.tar.gz
