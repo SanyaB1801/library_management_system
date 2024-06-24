@@ -1,55 +1,36 @@
 library_management_system/
 │
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── Main.java                  # Main class, entry point of the application
-│   │   │   │
-│   │   │   ├── db/
-│   │   │   │   ├── Database.java          # Class for interacting with the database
-│   │   │   │   └── ConnectionPool.java    # Class for managing database connections
-│   │   │   │
-│   │   │   ├── authentication/
-│   │   │   │   └── Authentication.java    # Class for user authentication
-│   │   │   │
-│   │   │   ├── book_management/
-│   │   │   │   ├── Book.java              # Class for representing book objects
-│   │   │   │   ├── BookManager.java       # Class for managing books (CRUD operations)
-│   │   │   │   └── BookManager.class      # Compiled class file
-│   │   │   │
-│   │   │   ├── member_management/
-│   │   │   │   ├── Member.java            # Class for representing library members
-│   │   │   │   ├── MemberManager.java     # Class for managing members (CRUD operations)
-│   │   │   │   └── MemberManager.class    # Compiled class file
-│   │   │   │
-│   │   │   ├── borrowing_management/
-│   │   │   │   ├── Borrowing.java        # Class for representing borrowing transactions
-│   │   │   │   ├── BorrowingManager.java # Class for managing borrowing transactions
-│   │   │   │   └── BorrowingManager.class# Compiled class file
-│   │   │   │
-│   │   │   └── gui/
-│   │   │       ├── MainFrame.java        # Class for the main GUI window
-│   │   │       ├── MainFrame.class       # Compiled class file
-│   │   │       ├── LoginFrame.java       # Class for the login GUI window
-│   │   │       └── LoginFrame.class      # Compiled class file
-│   │   │
-│   │   └── resources/                    # Folder for resource files (e.g., images, config files)
-│   │       └── library.db                # SQLite database file
-│   │
-│   └── test/                             # Folder for test classes and resources (optional)
-|       ├── java/
-|       |   ├── MainTest.java                  # Test class for Main class
-|       |   ├── db/
-|       |   │   └── DatabaseTest.java          # Test class for Database class
-|       |   ├── book_management/
-|       |   │   └── BookManagerTest.java       # Test class for BookManager class
-|       |   └── member_management/
-|       |       └── member_management.java     # Test class for MemberManager class
-|       └── resources/
-|           ├── test_data.csv                  # CSV file containing test data
-|           └── test_config.properties         # Configuration file for testing
+│   └── main/
+│      ├── java/
+│      │   ├── Main.java
+│      │   │
+│      │   ├── db/
+│      │   │   ├── Database.java          # Class for interacting with the database
+│      │   │   └── ConnectionPool.java    # Class for managing database connections
+│      │   │
+│      │   ├── authentication/
+│      │   │   └── Authentication.java    # Class for user authentication
+│      │   │
+│      │   ├── book_management/
+│      │   │   ├── Book.java              # Class for representing book objects
+│      │   │   └── BookManager.java       # Class for managing books (CRUD operations)
+│      │   │
+│      │   ├── member_management/
+│      │   │   ├── Member.java            # Class for representing library members
+│      │   │   └── MemberManager.java     # Class for managing members (CRUD operations)
+│      │   │
+│      │   ├── borrowing_management/
+│      │   │   ├── Borrowing.java        # Class for representing borrowing transactions
+│      │   │   └── BorrowingManager.java # Class for managing borrowing transactions
+│      │   │
+│      │   └── gui/
+│      │       ├── MainFrame.java        # Class for the main GUI window
+│      │       └── LoginFrame.java       # Class for the login GUI window
+│      │
+│      └── resources/
+│          └── library.db                # SQLite database file
 │
-├── README.md                             # Project README file
-├── requirements.txt                      # List of required Java libraries
-├── LICENSE                               # License file for the project
-└── .gitignore                            # File specifying which files and directories to ignore in version control
+├── README.md
+├── Folder Structure.txt
+└── requirements.txt
